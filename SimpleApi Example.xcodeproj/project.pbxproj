@@ -12,6 +12,14 @@
 		8100F4F5209D7A710009AE43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8100F4F3209D7A710009AE43 /* Main.storyboard */; };
 		8100F4F7209D7A720009AE43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8100F4F6209D7A720009AE43 /* Assets.xcassets */; };
 		8100F4FA209D7A720009AE43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8100F4F8209D7A720009AE43 /* LaunchScreen.storyboard */; };
+		8100F502209D7B880009AE43 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100F501209D7B880009AE43 /* NetworkService.swift */; };
+		8100F504209D87640009AE43 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100F503209D87640009AE43 /* TableViewCell.swift */; };
+		8100F506209D8F600009AE43 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100F505209D8F600009AE43 /* Model.swift */; };
+		8100F508209D9CEE0009AE43 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100F507209D9CEE0009AE43 /* SecondViewController.swift */; };
+		8100F50A209D9D6D0009AE43 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100F509209D9D6D0009AE43 /* SecondTableViewCell.swift */; };
+		8100F50C209DA23A0009AE43 /* Model2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100F50B209DA23A0009AE43 /* Model2.swift */; };
+		8100F50F209DABA00009AE43 /* NetworkServicePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100F50E209DABA00009AE43 /* NetworkServicePost.swift */; };
+		8100F511209DAD870009AE43 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100F510209DAD870009AE43 /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		8100F4F6209D7A720009AE43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8100F4F9209D7A720009AE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8100F4FB209D7A720009AE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8100F501209D7B880009AE43 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		8100F503209D87640009AE43 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8100F505209D8F600009AE43 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8100F507209D9CEE0009AE43 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8100F509209D9D6D0009AE43 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		8100F50B209DA23A0009AE43 /* Model2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model2.swift; sourceTree = "<group>"; };
+		8100F50E209DABA00009AE43 /* NetworkServicePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServicePost.swift; sourceTree = "<group>"; };
+		8100F510209DAD870009AE43 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,7 @@
 		8100F4E3209D7A710009AE43 = {
 			isa = PBXGroup;
 			children = (
+				8100F50D209DAB6F0009AE43 /* Post */,
 				8100F4EE209D7A710009AE43 /* SimpleApi Example */,
 				8100F4ED209D7A710009AE43 /* Products */,
 			);
@@ -60,8 +77,23 @@
 				8100F4F6209D7A720009AE43 /* Assets.xcassets */,
 				8100F4F8209D7A720009AE43 /* LaunchScreen.storyboard */,
 				8100F4FB209D7A720009AE43 /* Info.plist */,
+				8100F501209D7B880009AE43 /* NetworkService.swift */,
+				8100F503209D87640009AE43 /* TableViewCell.swift */,
+				8100F505209D8F600009AE43 /* Model.swift */,
+				8100F507209D9CEE0009AE43 /* SecondViewController.swift */,
+				8100F509209D9D6D0009AE43 /* SecondTableViewCell.swift */,
+				8100F50B209DA23A0009AE43 /* Model2.swift */,
 			);
 			path = "SimpleApi Example";
+			sourceTree = "<group>";
+		};
+		8100F50D209DAB6F0009AE43 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				8100F50E209DABA00009AE43 /* NetworkServicePost.swift */,
+				8100F510209DAD870009AE43 /* PostViewController.swift */,
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8100F50F209DABA00009AE43 /* NetworkServicePost.swift in Sources */,
+				8100F508209D9CEE0009AE43 /* SecondViewController.swift in Sources */,
+				8100F506209D8F600009AE43 /* Model.swift in Sources */,
+				8100F50C209DA23A0009AE43 /* Model2.swift in Sources */,
+				8100F511209DAD870009AE43 /* PostViewController.swift in Sources */,
 				8100F4F2209D7A710009AE43 /* ViewController.swift in Sources */,
+				8100F504209D87640009AE43 /* TableViewCell.swift in Sources */,
+				8100F502209D7B880009AE43 /* NetworkService.swift in Sources */,
+				8100F50A209D9D6D0009AE43 /* SecondTableViewCell.swift in Sources */,
 				8100F4F0209D7A710009AE43 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
